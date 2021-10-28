@@ -4,7 +4,6 @@
     height: 90.2vh;
     overflow: hidden;
     overflow-y: scroll;
-    padding-bottom: 50px;
 }
 
 .orders-wrapper::-webkit-scrollbar {
