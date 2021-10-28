@@ -126,17 +126,6 @@ function orderTables() {
                     <td className="orders-table__status-content table_status-width ">buyurtma</td>
                     <td className="orders-table__more-content table_more-width "><button>...</button></td>
                 </tr>
-                <tr className="orders-table__body">
-                    <td className="orders-table__id-content table_id-width ">6</td>
-                    <td className="orders-table__date-content table_date-width ">May 22, 11:29</td>
-                    <td className="orders-table__name-content table_name-width ">Bobur Mavlonov</td>
-                    <td className="orders-table__phone-content table_phone-width ">+998901234567</td>
-                    <td className="orders-table__price-content table_price-width ">2000000</td>
-                    <td className="orders-table__location-content table_location-width ">null</td>
-                    <td className="orders-table__driver-content table_driver-width ">NOT SELECTED</td>
-                    <td className="orders-table__status-content table_status-width ">buyurtmaa</td>
-                    <td className="orders-table__more-content table_more-width "><button>...</button></td>
-                </tr>
 
                 {/* <div className="buttons">
                     <div className="leftarrow">
