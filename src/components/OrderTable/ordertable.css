@@ -99,3 +99,22 @@
     text-align: center;
 }
 
+.order-name__link:hover {
+    text-decoration-line: underline;
+    color: #2A8CFF;
+}
+
+.order-phone__link:hover {
+    text-decoration-line: underline;
+    color: #2A8CFF;
+}
+
+.order-name__link {
+    transition: all ease 0.3s;
+    color: #000000;
+}
+
+.order-phone__link {
+    transition: all ease 0.3s;
+    color: #000000;
+}

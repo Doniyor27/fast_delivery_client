@@ -1,28 +1,13 @@
-.select {
-    margin-top: 20px;
-    margin-left: 27px;
-    /* width: 171px;
-    height: 42px; */
-    left: 250px;
-    top: 90px;
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
-    border-radius: 4px;
-    padding: 12px 84px 12px 12px;
-}
-
-.client-table {
+.product-table {
     background: #FFFFFF;
     border: 1px solid #D2D2D2;
     box-sizing: border-box;
     border-radius: 10px;
     margin-left: 27px;
     margin-top: 20px;
-    
 }
 
-.client-table__header {
+.product-table__header {
     display: block;
     background: #2E3444;
     border-radius: 10px 10px 0px 0px;
@@ -33,7 +18,7 @@
     color: #FFFFFF;
 }
 
-.client-table__body {
+.product-table__body {
     display: block;
     font-weight: 500;
     font-size: 14px;
@@ -45,76 +30,56 @@
     transition: all ease 0.3s;
 }
 
-.client-table__body:last-child {
+.product-table__body:last-child {
     border-bottom: none;
 }
 
-.client-table__body:hover {
+.product-table__body:hover {
     background: #F6F6F6;
 }
 
-.table_id-width {
-    width: 80px;
+.table_category-width {
+    width: 160px;
 }
 
-.table_date-width {
-    width: 140px;
-}
-
-.table_name-width {
+.table_stores-width {
     width: 520px;
 }
 
-.table_phone-width {
+.table_edit-width {
     width: 425px;
-}
-
-.table_price-width {
-    width: 110px;
-}
-
-.table_location-width {
-    width: 100px;
-}
-
-.table_driver-width {
-    width: 140px;
 }
 
 .table_status-width {
     width: 140px;
 }
 
-.table_more-width {
-    width: 170px;
-}
-
-.client-table__header th {
+.product-table__header th {
     height: 65px;
     text-align: center;
 }
 
-.client-table__body td {
+.product-table__body td {
     height: 65px;
     text-align: center;
 }
 
-.client-name_link:hover {
+.product-stores_link:hover {
     text-decoration-line: underline;
     color: #2A8CFF;
 }
 
-.client-phone_link:hover {
+.product-edit_link:hover {
     text-decoration-line: underline;
     color: #2A8CFF;
 }
 
-.client-name_link {
+.product-stores_link {
     transition: all ease 0.3s;
     color: #000000;
 }
 
-.client-phone_link {
+.product-edit_link {
     transition: all ease 0.3s;
     color: #000000;
 }

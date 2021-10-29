@@ -1,12 +1,10 @@
-
+import ClientTable from '../../components/ClientTable/clienttable.jsx'
 import './Tickets.scss';
 
 const Clients = () => {
   return (
-    <div className="tickets-page">
-      <h1>
-        Mijozlar
-      </h1>
+    <div className="clients-page">
+      <ClientTable/>
     </div>
   )
 }
