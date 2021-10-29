@@ -1,0 +1,31 @@
+.suggestions-box {
+    position: absolute;
+    width: 1083px;
+    height: 505px;
+    left: 253px;
+    top: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.suggestions-heading {
+    margin-left: 35px;
+    margin-top: 25px;
+    width: 203px;
+    height: 24px;
+    left: 283px;
+    top: 125px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.suggestions-list {
+    list-style-type: none;
+}
+
+.suggestions-list-item {
+    display: flex;
+}
