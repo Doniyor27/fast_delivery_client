@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+button {
+    border: none;
+    outline: none;
+}
+
+* {
+    font-family: Montserrat;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 373px;
+    border: 1px solid red;
+}
+
+.close-button {
+    width: 30px;
+    height: 30px;
+    margin-left: 240px;
+    background-color: #3EB597;
+    border: none;
+    color: #FFF;
+}
+
+.heading  {
+    position: absolute;
+    width: 177px;
+    height: 22px;
+    left: 25px;
+    top: 25px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;    
+    line-height: 22px;
+    margin-bottom: 31px;
+}
+
+.select-list {
+    margin-top: 31px;
+    list-style-type: none;
+}
+
+.select-list-option {
+    width: 72px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.select-list-option:hover {
+    opacity: 0.6;
+}
+
+.select-list-option:active {
+    width: 77px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #4E85FB;
+    opacity: 1;
+}
+
+.save-button {
+    width: 220px;
+    height: 45px;
+    font-size: 14px;
+    text-align: center; 
+    color: #FFF;
+    background: #2E3444;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 55px;
+}
+
+.save-button:hover,
+.save-button:active {
+    opacity: 0.9;
+}
