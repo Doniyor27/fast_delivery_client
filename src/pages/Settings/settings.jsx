@@ -1,16 +1,18 @@
 import './settings.css'
 
 const Settings = () => {
-    return (
-      <>
-        <div className="pages">
-          <div className="item"><p>Users</p></div>
-          <div className="item"><p>Drivers</p></div>
-          <div className="item"><p>Infos</p></div>
-          <div className="item"><p>Payment</p></div>
-          {/* { item.onclick = () => item.style = 'background: #2E3444;' } */}
-        </div>
-      </>
-    )
-  }
+  return (
+    <>
+      <div className="pages">
+        <div className="item"><a href="http://localhost:3000/settings/users">Users</a></div>
+        <div className="item"><a href="">Drivers</a></div>
+        <div className="item"><a href="">Infos</a></div>
+        <div className="item"><a href="">Payment</a></div>
+      </div>
+    </>
+  )
+}
+
+
+
 export default Settings

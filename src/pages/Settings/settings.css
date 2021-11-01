@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 .pages {
     display: flex;
     justify-content: center;
@@ -21,7 +25,7 @@
     border-radius: 150px;
 }
 
-.item p {
+.item a {
     display: none;
 }
 
@@ -30,6 +34,7 @@
     color: #f7f8fc;
 }
 
-.item:first-child p {
+.item:first-child a {
     display: inherit;
+    color: #FFFFFF;
 }
