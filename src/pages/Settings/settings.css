@@ -38,3 +38,34 @@ a {
     display: inherit;
     color: #FFFFFF;
 }
+
+.available-users {
+    margin-top: 97px;
+    margin-left: 46px;
+    width: 154px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.users-list {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-left: 49px;
+    width: 426px;
+    height: 162px;
+    list-style-type: none;
+}
+
+.users-list li {
+    width: 386px;
+    height: 32px;
+    margin: 18px 20px;
+}
+
+.users-list li p {
+    width: 92px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
