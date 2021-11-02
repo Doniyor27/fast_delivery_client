@@ -23,7 +23,7 @@ const Saidbar = () => {
     <div className="Sidebar">   
     <div className="btn-wrap">
     <div className="top-btn">
-    <Link to="orders" onClick={() => setActivePage('orders')}>
+        <Link to="orders" onClick={() => setActivePage('orders')}>
         <SidebarButton title="Buyurtmalar" icon={<OverwievIcon/>} active={activePage == 'orders'}/>
       </Link>
       <Link to="clients" onClick={() => setActivePage('clients')}>
