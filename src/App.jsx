@@ -15,7 +15,6 @@ import Login from './pages/Login/login.jsx'
 import Header from './containers/Header/header.jsx'
 import Sidebar from './containers/Sidebar/Saidbar'
 
-
 import './assets/styles/main.css'
 
 class App extends Component {
@@ -34,29 +33,28 @@ class App extends Component {
       <Header/>
       <div className='container'>
       <Sidebar/>
-       <div className='left-content'>
-        <Switch>
-         <Route path='/orders' >
-          <Orders/>
-         </Route>
-         <Route path='/clients' >
-           <Clients/>
-         </Route>
-         <Route path='/products' >
-           <Products/>
-         </Route>
-         <Route path='/suggests' >
-           <Suggest/>
-         </Route>
-         <Route path='/settings' >
-           <Settings/>
-         </Route>
-         <Route path='/login' >
-           <Login/>
-         </Route>
-
-        </Switch>
-       </div>
+        <div className='left-content'>
+          <Switch>
+            <Route path='/orders' >
+              <Orders/>
+            </Route>
+            <Route path='/clients' >
+              <Clients/>
+            </Route>
+            <Route path='/products' >
+              <Products/>
+            </Route>
+            <Route path='/suggests' >
+              <Suggest/>
+            </Route>
+            <Route path='/settings' >
+              <Settings/>
+            </Route>
+            <Route path='/login' >
+              <Login/>
+            </Route>
+          </Switch>
+        </div>
       </div>
     </Router>
   )
