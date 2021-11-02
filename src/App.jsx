@@ -12,7 +12,6 @@ import Products from './pages/Products/products.jsx'
 import Suggest from './pages/Suggestions/Suggest.jsx'
 import Settings from './pages/Settings/settings.jsx'
 import Login from './pages/Login/login.jsx'
-
 import Header from './containers/Header/header.jsx'
 import Sidebar from './containers/Sidebar/Saidbar'
 
