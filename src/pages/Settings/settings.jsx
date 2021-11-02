@@ -15,25 +15,26 @@ const Settings = () => {
         <li className="users-list-item">
           <p>1. John Doe</p>
           <div className="buttons">
-            <button className="edit-button"></button>
-            <button className="delete-button"></button>
+            <button className="edit-button">e</button>
+            <button className="delete-button">d</button>
           </div>
         </li>
         <li className="users-list-item">
           <p>2. Shuhrat</p>
           <div className="buttons">
-            <button className="edit-button"></button>
-            <button className="delete-button"></button>
+            <button className="edit-button">e</button>
+            <button className="delete-button">d</button>
           </div>
         </li>
         <li className="users-list-item">
           <p>3. Ilhom</p>
           <div className="buttons">
-            <button className="edit-button"></button>
-            <button className="delete-button"></button>
+            <button className="edit-button">e</button>
+            <button className="delete-button">d</button>
           </div>
         </li>
       </ul>
+      <button className="add-button">Qo'shish +</button>
     </>
   )
 }
