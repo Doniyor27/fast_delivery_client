@@ -8,43 +8,6 @@ a {
     text-decoration: none;
 }
 
-.pages {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 326px;
-    height: 37px;
-    left: 632px;
-    top: 100px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
-    border-radius: 150px;
-}
-
-.item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 82px;
-    height: 37px;
-    border-radius: 150px;
-}
-
-.item a {
-    display: none;
-}
-
-.item:first-child {
-    background: #2E3444;
-    color: #f7f8fc;
-}
-
-.item:first-child a {
-    display: inherit;
-    color: #FFFFFF;
-}
-
 .available-users {
     margin-top: 97px;
     margin-left: 46px;
