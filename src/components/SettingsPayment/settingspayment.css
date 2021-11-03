@@ -85,18 +85,6 @@
     width: 200px;
 }
 
-.table_driver-width {
-    width: 140px;
-}
-
-.table_status-width {
-    width: 140px;
-}
-
-.table_more-width {
-    width: 115px;
-}
-
 .payment-table__header th {
     height: 65px;
     text-align: center;

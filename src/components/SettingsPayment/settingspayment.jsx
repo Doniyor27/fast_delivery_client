@@ -14,20 +14,20 @@ function SettingsPayment() {
                     <th className="payment-table__delete table_delete-width ">O'chirish</th>
                 </tr>
                 <tr className="payment-table__body">
-                    <td className="payment-table__id-content table_id-width ">Click</td>
-                    <td className="payment-table__date-content table_date-width ">null Click</td>
+                    <td className="payment-table__name-content table_name-width ">Click</td>
+                    <td className="payment-table__tg-button-name-content table_tg-button-name-width ">null Click</td>
                     <td className="payment-table__name-content table_name-width "><a href="javascript:void(0)" className="order-name__link">null</a></td>
                     <td className="payment-table__phone-content table_phone-width "> <a href="javascript:void(0)" className="order-phone__link">null</a></td>
-                    <td className="payment-table__price-content table_price-width ">null</td>
-                    <td className="payment-table__location-content table_location-width ">null</td>
+                    <td className="payment-table__edit-content table_edit-width ">null</td>
+                    <td className="payment-table__delete-content table_delete-width ">null</td>
                 </tr>
                 <tr className="payment-table__body">
-                    <td className="payment-table__id-content table_id-width ">Payme</td>
-                    <td className="payment-table__date-content table_date-width ">null Click</td>
+                    <td className="payment-table__name-content table_name-width ">Payme</td>
+                    <td className="payment-table__tg-button-name-content table_tg-button-name-width ">null Click</td>
                     <td className="payment-table__name-content table_name-width "><a href="javascript:void(0)" className="order-name__link">null</a></td>
                     <td className="payment-table__phone-content table_phone-width "> <a href="javascript:void(0)" className="order-phone__link">null</a></td>
-                    <td className="payment-table__price-content table_price-width ">null</td>
-                    <td className="payment-table__location-content table_location-width ">null</td>
+                    <td className="payment-table__edit-content table_edit-width ">null</td>
+                    <td className="payment-table__edit-content table_edit-width ">null</td>
                 </tr>
             </table>
         </>

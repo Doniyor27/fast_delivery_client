@@ -12,17 +12,16 @@
     padding: 12px 84px 12px 12px;
 }
 
-.orders-table {
+.drivers-table {
     background: #FFFFFF;
     border: 1px solid #D2D2D2;
     box-sizing: border-box;
     border-radius: 10px;
     margin-left: 27px;
-    margin-top: 90px;
-    
+    margin-top: 100px;
 }
 
-.orders-table__header {
+.drivers-table__header {
     display: block;
     background: #2E3444;
     border-radius: 10px 10px 0px 0px;
@@ -33,7 +32,7 @@
     color: #FFFFFF;
 }
 
-.orders-table__body {
+.drivers-table__body {
     display: block;
     font-weight: 500;
     font-size: 14px;
@@ -45,11 +44,11 @@
     transition: all ease 0.3s;
 }
 
-.orders-table__body:last-child {
+.drivers-table__body:last-child {
     border-bottom: none;
 }
 
-.orders-table__body:hover {
+.drivers-table__body:hover {
     background: #F6F6F6;
 }
 
@@ -57,11 +56,11 @@
     width: 60px;
 }
 
-.table_date-width {
+.table_fullname-width {
     width: 140px;
 }
 
-.table_name-width {
+.table_dob-width {
     width: 120px;
 }
 
@@ -69,15 +68,11 @@
     width: 170px;
 }
 
-.table_price-width {
-    width: 110px;
-}
-
-.table_location-width {
+.table_autonumber-width {
     width: 100px;
 }
 
-.table_driver-width {
+.table_type-width {
     width: 140px;
 }
 
@@ -85,21 +80,21 @@
     width: 140px;
 }
 
-.table_more-width {
+.table_edit-width {
     width: 115px;
 }
 
-.orders-table__header th {
+.drivers-table__header th {
     height: 65px;
     text-align: center;
 }
 
-.orders-table__body td {
+.drivers-table__body td {
     height: 65px;
     text-align: center;
 }
 
-.order-name__link:hover {
+.order-dob__link:hover {
     text-decoration-line: underline;
     color: #2A8CFF;
 }
@@ -109,7 +104,7 @@
     color: #2A8CFF;
 }
 
-.order-name__link {
+.order-dob__link {
     transition: all ease 0.3s;
     color: #000000;
 }
