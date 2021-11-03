@@ -8,7 +8,7 @@ function Settings () {
   return (
     <>  
       <SettingsNestedLink/>
-      <SettingsDrivers/>
+      <SettingsPayment/>
     </>
   )
 }
