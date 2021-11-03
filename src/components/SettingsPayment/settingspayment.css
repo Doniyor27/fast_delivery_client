@@ -1,0 +1,35 @@
+.payment-table {
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 27px;
+    margin-top: 90px;   
+}
+
+.payment-table-header {
+    display: block;
+    background: #2E3444;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.payment-table-body {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    border-bottom: 1px solid #D2D2D2;
+    box-sizing: border-box;
+    transition: all ease 0.3s;
+}
+
+
+
+
