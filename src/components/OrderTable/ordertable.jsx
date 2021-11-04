@@ -1,6 +1,8 @@
 import './ordertable.css'
 
-function orderTables() {
+
+
+function orderTables({data}) {
     return (
         <>
             <table className="orders-table">

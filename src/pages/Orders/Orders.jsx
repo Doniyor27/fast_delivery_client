@@ -1,8 +1,17 @@
+import { useeffect } from 'react';
 import OrderTable from '../../components/OrderTable/ordertable.jsx'
 import '../../assets/icons/icons.js'
 import './orders.css'
 
+
 const Orders = () => {
+
+  // useeffect(() => {
+  //   const tableData = fetch('ff')
+  //     .then(response => response.json)
+  //     .then(data => data);
+  // }, [])
+
   return (
     <div className="orders-wrapper">
       <select className="select">
