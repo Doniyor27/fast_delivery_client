@@ -1,12 +1,21 @@
 .add-tovar-modal-box {
+    margin-top: 150px;
+    margin-left: 200px;
     width: 815px;
     height: 352px;
-    border: 1px solid red;
-    margin-top: 150px;
-    margin-left: 100px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
-.heading {
+.add-tovar-modal-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-tovar-modal-wrapper {
+    display: flex;
+}
+
+.add-tovar-modal-heading {  
     margin-top: 25px;
     margin-left: 25px;
     width: 80px;
@@ -15,16 +24,71 @@
     font-size: 18px;
 }
 
-.img {
+.add-tovar-modal-close-btn {
+    width: 30px;
+    height: 30px;
+    background: #3EB597;
+    border: none;
+    color: #FFFFFF;
+}
+
+.add-tovar-modal-img {
+    margin-top: 25px;
+    margin-left: 25px;
     width: 250px;
     height: 250px;
     background: #E2E2E2;
     border-radius: 5px;
-    margin-left: 25px;
-    margin-top: 25px;
 }
 
-.first-row {
+.add-tovar-modal-first-row {
     display: flex;
-    margin-top: 72px;
+    width: 485px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.add-tovar-modal-second-row {
+    display: flex;
+    width: 485px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.add-tovar-modal-third-row {
+    display: flex;
+    width: 485px;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+
+.add-tovar-modal-input-box-title {
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.add-tovar-modal-input {
+    width: 220px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.add-tovar-modal-input-title {
+    margin-top: 40px;
+}
+
+.add-tovar-modal-btn {
+    width: 220px;
+    height: 45px;
+    background: #2E3444;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    margin-right: 10px;
+    margin-top: 35px;
 }
