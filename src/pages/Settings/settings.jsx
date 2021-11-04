@@ -5,12 +5,13 @@ import SettingsDrivers from '../../components/SettingsDrivers/settingsdrivers.js
 import SettingsPayment from '../../components/SettingsPayment/settingspayment.jsx'
 import AddCategoryModal from '../../components/AddCategoryModal/addcategorymodal.jsx'
 import EditCategoryModal from '../../components/EditCategoryModal/editcategorymodal.jsx'
+import AddProductModal from '../../components/AddProductModal/addproductmodal.jsx'
 
 function Settings () {
   return (
     <>  
       <SettingsNestedLink/>
-      <EditCategoryModal/>
+      <AddProductModal/>
     </>
   )
 }
