@@ -6,14 +6,15 @@ import SettingsChange from '../../components/SettingsChange/settingschange.jsx'
 // import AddCategoryModal from '../../components/AddCategoryModal/addcategorymodal.jsx'
 // import EditCategoryModal from '../../components/EditCategoryModal/editcategorymodal.jsx'
 // import AddProductModal from '../../components/AddProductModal/addproductmodal.jsx'
-import AddTovarModal from '../../components/AddTovarModal/addtovarmodal.jsx'
-import AddProductControlModal from '../../components/AddProductControlModal/addproductcontrolmodal.jsx'
+// import AddTovarModal from '../../components/AddTovarModal/addtovarmodal.jsx'
+// import AddProductControlModal from '../../components/AddProductControlModal/addproductcontrolmodal.jsx'
+import AddUserModal from '../../components/AddUserModal/addusermodal.jsx'
 
 function Settings () {
   return (
     <>  
       <SettingsNestedLink/>
-      <AddProductControlModal/>
+      <AddUserModal/>
     </>
   )
 }
