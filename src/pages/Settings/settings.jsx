@@ -11,12 +11,13 @@ import SettingsNestedLink from '../../components/SettingsNestedLink/settingsnest
 import AddUserModal from '../../components/AddUserModal/addusermodal.jsx'
 import AddDriverModal from '../../components/AddDriverModal/adddrivermodal.jsx'
 import AddPaymentModal from '../../components/AddPaymentModal/addpaymentmodal.jsx'
+import EditPaymentModal from '../../components/EditPaymentModal/editpaymentmodal.jsx'
 
 function Settings () {
   return (
     <>  
       <SettingsNestedLink/>
-      <AddPaymentModal/>
+      <EditPaymentModal/>
     </>
   )
 }
