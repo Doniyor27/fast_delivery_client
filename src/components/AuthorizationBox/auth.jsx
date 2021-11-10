@@ -67,6 +67,7 @@ function AuthBox() {
 					if (data.status === 200) {
 						const id = jwt.sign({ userId: data.data[0].id }, 'olma')
 						const token = jwt.sign({ user: data.data[0].status }, 'olma')
+						console.log(token);
 						document.cookie = "user="+token;
 						document.cookie = "userId="+id;
 						const re = new RegExp(`(?<=user=)[^;]*`);

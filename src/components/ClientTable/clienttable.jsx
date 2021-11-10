@@ -19,7 +19,7 @@ function ClientTable() {
         const table = document.querySelector('.client-table')
 
         const arrayy = data.data
-        console.log(data);
+        
         // for (const i of arrayy) {
         //     // <tr className="client-table__body">
         //     //         <td className="client-table__id-content table_id-width ">6</td>
