@@ -68,7 +68,7 @@ function ClientTable() {
                     <th className="client-table__more table_more-width ">Buyurtmalar</th>
                 </tr>
 
-                {/* <tr className="client-table__body">
+                <tr className="client-table__body">
                     <td className="client-table__id-content table_id-width ">6</td>
                     <td className="client-table__name-content table_name-width "><a href="/clientsinner" className="client-name_link">Bobur Mavlonov</a></td>
                     <td className="client-table__phone-content table_phone-width "><a href="javascript:void(0)" className="client-phone_link">+998901234567</a></td>
@@ -103,7 +103,7 @@ function ClientTable() {
                     <td className="client-table__name-content table_name-width "><a href="/clientsinner" className="client-name_link">Bobur Mavlonov</a></td>
                     <td className="client-table__phone-content table_phone-width "><a href="javascript:void(0)" className="client-phone_link">+998901234567</a></td>
                     <td className="client-table__status-content table_more-width ">1</td>
-                </tr> */}
+                </tr>
 
 
             </table>
