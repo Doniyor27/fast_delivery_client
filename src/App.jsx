@@ -51,15 +51,12 @@ class App extends Component {
             <Route path='/settings' >
               <Settings/>
             </Route>
-<<<<<<< HEAD
-=======
             <Route path='/login' >
               <Login/>
             </Route>
             <Route path="/clientsinner">
               <ClientsInner/>
             </Route>
->>>>>>> 4f507c922a9455072cb975cf32505cf780051a24
           </Switch>
         </div>
       </div>
