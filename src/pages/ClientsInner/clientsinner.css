@@ -1,0 +1,54 @@
+.clients-inner-header {
+    display: flex;
+}
+
+.clients-inner-back-box {
+    margin-left: 27px;
+    margin-top: 35px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #131212;
+}
+
+.clients-inner-heading {
+    width: 125px;
+    height: 22px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 44px;
+    margin-left: 20px;
+}
+
+.clients-inner-select {
+    width: 171px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 198px;
+}
+
+.clients-inner-orders-count-box {
+    margin-top: 36px;
+    margin-left: 113px;
+}
+
+.clients-inner-phone-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 174px;
+    height: 45px;
+    background: #3EB597;
+    border-radius: 50px;
+    margin-left: 113px;
+    margin-top: 32px;
+}
+
+.clients-inner-phone {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+}

@@ -11,9 +11,7 @@ const Login = () => {
 			<div className="logo-wrap">
 				<img src={logo} className="login-logo" alt="Fast Delivery"/>
 			</div>
-			<AuthBox/>
-			
-
+			<AuthBox/>	
 		</>
 	)
 }
