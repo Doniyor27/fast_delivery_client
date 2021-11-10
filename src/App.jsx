@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import { Component } from 'react'
 
 import {
   BrowserRouter as Router,
@@ -7,7 +7,8 @@ import {
 } from 'react-router-dom'
 
 import Orders from './pages/Orders/Orders.jsx'
-import Clients from './pages/Clients/clients.js'
+import Clients from './pages/Clients/clients.jsx'
+import ClientsInner from './pages/ClientsInner/clientsinner.jsx'
 import Products from './pages/Products/products.jsx'
 import Suggest from './pages/Suggestions/Suggest.jsx'
 import Settings from './pages/Settings/settings.jsx'
@@ -52,6 +53,9 @@ class App extends Component {
             </Route>
             <Route path='/login' >
               <Login/>
+            </Route>
+            <Route path="/clientsinner">
+              <ClientsInner/>
             </Route>
           </Switch>
         </div>
