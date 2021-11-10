@@ -50,9 +50,6 @@ class App extends Component {
             <Route path='/settings' >
               <Settings/>
             </Route>
-            <Route path='/login' >
-              <Login/>
-            </Route>
           </Switch>
         </div>
       </div>
