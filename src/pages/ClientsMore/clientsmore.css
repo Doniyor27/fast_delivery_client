@@ -1,0 +1,139 @@
+.clients-more-box {
+    width: 1072px;
+    height: 578px;
+    border: 1px solid #D2D2D2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 18px;
+}
+
+.clients-more-header {
+    display: flex;
+}
+
+.clients-more-back-box {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #131212;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 41px;
+}
+
+.clients-more-heading {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.clients-more-orders-time-box {
+    margin-left: 270px;
+    margin-top: 54px;
+}
+
+.clients-more-orders-count {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.clients-more-phone-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 174px;
+    height: 45px;
+    background: #3EB597;
+    border-radius: 50px;
+    margin-top: 47px;
+    margin-left: 241px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.clients-more-main {
+    display: flex;
+    margin-top: 35px;
+}
+
+.clients-more-address-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: #F2F2F2;
+    border-radius: 10px;
+    margin-left: 139px;
+}
+
+.clients-more-address-link {
+    margin-top: 18px;
+    margin-left: 115px;
+}
+
+.clients-more-status-box {
+    margin-left: 246px;
+}
+
+.clients-more-status-heading {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.clients-more-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 45px;
+    background: #D9FFDA;
+    border-radius: 60px;
+}
+
+.clients-more-driver-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 205px;
+}
+
+.clients-more-driver-heading {
+    width: 57px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 11px;
+}
+
+.clients-more-driver-autonumber {
+    padding: 10.5px;
+    width: 144px;
+    height: 45px;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 90px;
+}
+
+.clients-more-table-wrapper {
+    margin-left: 41px;
+    margin-top: 30px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 15px;
+}
+
+.clients-more-table tr th,
+.clients-more-table tr td {
+    padding: 10px 40px;
+}
+
+.clients-more-table-footer {
+    margin-left: 450px;
+    margin-top: 25px;
+}
