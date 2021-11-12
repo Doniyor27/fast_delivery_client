@@ -22,7 +22,7 @@ function ClientsInnerTable () {
                     <td className="clients-inner-table__address-content table_address-width ">null</td>
                     <td className="clients-inner-table__driver-content table_driver-width ">null</td>
                     <td className="clients-inner-table__status-content table_status-width ">null</td>
-                    <td className="clients-inner-table__more-content table_more-width "><a href="https://localhost:3000/clientsmore">null</a></td>
+                    <td className="clients-inner-table__more-content table_more-width "><a href="http://localhost:3000/clientsmore">null</a></td>
                 </tr>
                 <tr className="clients-inner-table__body">
                     <td className="clients-inner-table__id-content table_id-width ">5</td>
@@ -32,7 +32,7 @@ function ClientsInnerTable () {
                     <td className="clients-inner-table__address-content table_address-width ">null</td>
                     <td className="clients-inner-table__driver-content table_driver-width ">null</td>
                     <td className="clients-inner-table__status-content table_status-width ">null</td>
-                    <td className="clients-inner-table__more-content table_more-width "><a href="https://localhost:3000/clientsmore">null</a></td>
+                    <td className="clients-inner-table__more-content table_more-width "><a href="http://localhost:3000/clientsmore">null</a></td>
                 </tr>
                 <tr className="clients-inner-table__body">
                     <td className="clients-inner-table__id-content table_id-width ">4</td>
@@ -42,7 +42,7 @@ function ClientsInnerTable () {
                     <td className="clients-inner-table__address-content table_address-width ">null</td>
                     <td className="clients-inner-table__driver-content table_driver-width ">null</td>
                     <td className="clients-inner-table__status-content table_status-width ">null</td>
-                    <td className="clients-inner-table__more-content table_more-width "><a href="https://localhost:3000/clientsmore">null</a></td>
+                    <td className="clients-inner-table__more-content table_more-width "><a href="http://localhost:3000/clientsmore">null</a></td>
                 </tr>
                 <tr className="clients-inner-table__body">
                     <td className="clients-inner-table__id-content table_id-width ">3</td>
@@ -52,7 +52,7 @@ function ClientsInnerTable () {
                     <td className="clients-inner-table__address-content table_address-width ">null</td>
                     <td className="clients-inner-table__driver-content table_driver-width ">null</td>
                     <td className="clients-inner-table__status-content table_status-width ">null</td>
-                    <td className="clients-inner-table__more-content table_more-width "><a href="https://localhost:3000/clientsmore">null</a></td>
+                    <td className="clients-inner-table__more-content table_more-width "><a href="http://localhost:3000/clientsmore">null</a></td>
                 </tr>
                 <tr className="clients-inner-table__body">
                     <td className="clients-inner-table__id-content table_id-width ">2</td>
@@ -62,7 +62,7 @@ function ClientsInnerTable () {
                     <td className="clients-inner-table__address-content table_address-width ">null</td>
                     <td className="clients-inner-table__driver-content table_driver-width ">null</td>
                     <td className="clients-inner-table__status-content table_status-width ">null</td>
-                    <td className="clients-inner-table__more-content table_more-width "><a href="https://localhost:3000/clientsmore">null</a></td>
+                    <td className="clients-inner-table__more-content table_more-width "><a href="http://localhost:3000/clientsmore">null</a></td>
                 </tr>
                 <tr className="clients-inner-table__body">
                     <td className="clients-inner-table__id-content table_id-width ">1</td>
@@ -72,7 +72,7 @@ function ClientsInnerTable () {
                     <td className="clients-inner-table__address-content table_address-width ">null</td>
                     <td className="clients-inner-table__driver-content table_driver-width ">null</td>
                     <td className="clients-inner-table__status-content table_status-width ">null</td>
-                    <td className="clients-inner-table__more-content table_more-width "><a href="https://localhost:3000/clientsmore">null</a></td>
+                    <td className="clients-inner-table__more-content table_more-width "><a href="http://localhost:3000/clientsmore">null</a></td>
                 </tr>
             </table>
         </>

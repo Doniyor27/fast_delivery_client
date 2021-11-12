@@ -77,36 +77,35 @@ function ProductTable() {
                 </tr>
 
                 <tr className="product-table__body">
-                    <td className="product-table__category-content table_category-width ">Fast food</td>
+                    <td className="product-table__category-content table_category-width "><a href="http://localhost:3000/categoryinner">Fast food</a></td>
                     <td className="product-table__stores-content table_stores-width ">12</td>
                     <td className="product-table__edit-content table_edit-width ">null</td>
                     <td className="product-table__status-content table_status-width ">null</td>
                 </tr>
                 <tr className="product-table__body">
-                    <td className="product-table__category-content table_category-width ">Fast food</td>
+                    <td className="product-table__category-content table_category-width "><a href="http://localhost:3000/categoryinner">Fast food</a></td>
                     <td className="product-table__stores-content table_stores-width ">12</td>
                     <td className="product-table__edit-content table_edit-width ">null</td>
                     <td className="product-table__status-content table_status-width ">null</td>
                 </tr>
                 <tr className="product-table__body">
-                    <td className="product-table__category-content table_category-width ">Fast food</td>
+                    <td className="product-table__category-content table_category-width "><a href="http://localhost:3000/categoryinner">Fast food</a></td>
                     <td className="product-table__stores-content table_stores-width ">12</td>
                     <td className="product-table__edit-content table_edit-width ">null</td>
                     <td className="product-table__status-content table_status-width ">null</td>
                 </tr>
                 <tr className="product-table__body">
-                    <td className="product-table__category-content table_category-width ">Fast food</td>
+                    <td className="product-table__category-content table_category-width "><a href="http://localhost:3000/categoryinner">Fast food</a></td>
                     <td className="product-table__stores-content table_stores-width ">12</td>
                     <td className="product-table__edit-content table_edit-width ">null</td>
                     <td className="product-table__status-content table_status-width ">null</td>
                 </tr>
                 <tr className="product-table__body">
-                    <td className="product-table__category-content table_category-width ">Fast food</td>
+                    <td className="product-table__category-content table_category-width "><a href="http://localhost:3000/categoryinner">Fast food</a></td>
                     <td className="product-table__stores-content table_stores-width ">12</td>
                     <td className="product-table__edit-content table_edit-width ">null</td>
                     <td className="product-table__status-content table_status-width ">null</td>
                 </tr>
-                
             </table>
         </>
     )

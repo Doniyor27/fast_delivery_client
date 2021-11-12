@@ -16,6 +16,7 @@ import Login from './pages/Login/login.jsx'
 import Header from './containers/Header/header.jsx'
 import Sidebar from './containers/Sidebar/Saidbar'
 import ClientsMore from './pages/ClientsMore/clientsmore.jsx'
+// import CategoryInner from './pages/CategoryInner/categoryinner.jsx'
 
 import './assets/styles/main.css'
 
@@ -61,6 +62,9 @@ class App extends Component {
             <Route path="/clientsmore">
               <ClientsMore/>
             </Route>
+            {/* <Route path="/categoryinner">
+              <CategoryInner/>
+            </Route> */}
           </Switch>
         </div>
       </div>
