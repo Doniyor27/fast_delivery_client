@@ -134,6 +134,12 @@
 }
 
 .clients-more-table-footer {
-    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+    overflow: hidden;
     margin-top: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }

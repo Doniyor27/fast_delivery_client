@@ -73,7 +73,7 @@ function SuggestionTable (){
               Imperdiet arcu auctor ac quis at adipiscing odio morbi blandit. Purus ornare mattis tincidunt tellus mauris malesuada facilisi  urna. Libero, feugiat volutpat diam nullam duis dui sed pulvinar. Nunc duis facilisis fringilla etiam. Lorem dignissim molestie  volutpat in dolor arcu. In vitae fusce dignissim sodales.
             </p>
             <div className="suggestion-btn-wrap">
-                <button className="reply-btn"><img src="" alt="" /></button>
+                <button className="reply-btn">null</button>
                 <button className="delete-btn">null</button>
               </div>
           </li>
