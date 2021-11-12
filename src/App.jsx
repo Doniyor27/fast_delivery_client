@@ -15,6 +15,7 @@ import Settings from './pages/Settings/settings.jsx'
 import Login from './pages/Login/login.jsx'
 import Header from './containers/Header/header.jsx'
 import Sidebar from './containers/Sidebar/Saidbar'
+import ClientsMore from './pages/ClientsMore/clientsmore.jsx'
 
 import './assets/styles/main.css'
 
@@ -56,6 +57,9 @@ class App extends Component {
             </Route>
             <Route path="/clientsinner">
               <ClientsInner/>
+            </Route>
+            <Route path="/clientsmore">
+              <ClientsMore/>
             </Route>
           </Switch>
         </div>
