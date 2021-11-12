@@ -38,19 +38,19 @@
     background: #F6F6F6;
 }
 
-.table_category-width {
+.product-table_category-width {
     width: 160px;
 }
 
-.table_stores-width {
+.product-table_stores-width {
     width: 520px;
 }
 
-.table_edit-width {
+.product-table_edit-width {
     width: 425px;
 }
 
-.table_status-width {
+.product-table_status-width {
     width: 140px;
 }
 

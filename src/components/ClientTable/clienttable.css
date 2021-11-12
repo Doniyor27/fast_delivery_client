@@ -53,39 +53,39 @@
     background: #F6F6F6;
 }
 
-.table_id-width {
+.client-table_id-width {
     width: 80px;
 }
 
-.table_date-width {
+.client-tablee_date-width {
     width: 140px;
 }
 
-.table_name-width {
+.client-table_name-width {
     width: 520px;
 }
 
-.table_phone-width {
+.client-table_phone-width {
     width: 425px;
 }
 
-.table_price-width {
+.client-table_price-width {
     width: 110px;
 }
 
-.table_location-width {
+.client-table_location-width {
     width: 100px;
 }
 
-.table_driver-width {
+.client-table_driver-width {
     width: 140px;
 }
 
-.table_status-width {
+.client-table_status-width {
     width: 140px;
 }
 
-.table_more-width {
+.client-table_more-width {
     width: 170px;
 }
 

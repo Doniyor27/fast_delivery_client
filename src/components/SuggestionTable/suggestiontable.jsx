@@ -1,6 +1,7 @@
 import './suggestiontable.css'
 
 function SuggestionTable (){
+  ``
     
     return (
         <>
