@@ -38,20 +38,24 @@
     background: #F6F6F6;
 }
 
-.category-product-table_category-width {
-    width: 160px;
+.category-product-table_id-width {
+    width: 100px;
 }
 
-.category-product-table_stores-width {
-    width: 520px;
+.category-product-table_product-width {
+    width: 300px;
 }
 
-.category-product-table_edit-width {
-    width: 425px;
+.category-product-table_count_width {
+    width: 300px;
 }
 
 .category-product-table_status-width {
-    width: 140px;
+    width: 240px;
+}
+
+.category-product-table_edit-width {
+    width: 525px;
 }
 
 .category-product-table__header th {

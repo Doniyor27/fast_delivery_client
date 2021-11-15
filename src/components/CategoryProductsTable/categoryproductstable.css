@@ -38,20 +38,32 @@
     background: #F6F6F6;
 }
 
-.category-products-table_category-width {
-    width: 160px;
+.category-products-table_id-width {
+    width: 130px;
 }
 
 .category-products-table_stores-width {
-    width: 520px;
+    width: 220px;
+}
+
+.category-products-table_count_width {
+    width: 200px;
+}
+
+.category-products-table_phone_width {
+    width: 200px;
+}
+
+.category-products-table_location_width {
+    width: 120px;
+}
+
+.category-products-table_status-width {
+    width: 150px;
 }
 
 .category-products-table_edit-width {
     width: 425px;
-}
-
-.category-products-table_status-width {
-    width: 140px;
 }
 
 .category-products-table__header th {
