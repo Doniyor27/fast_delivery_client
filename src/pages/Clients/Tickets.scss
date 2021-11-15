@@ -1,4 +1,10 @@
 .clients-page {
     max-width: 100vw;
     min-width: 82vw;
+    height: 90.2vh;
+    overflow-y: scroll;
+}
+
+.clients-page::-webkit-scrollbar {
+    display: none;
 }

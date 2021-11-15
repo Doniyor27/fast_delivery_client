@@ -1,4 +1,4 @@
-.product-table {
+.categories-table {
     background: #FFFFFF;
     border: 1px solid #D2D2D2;
     box-sizing: border-box;
@@ -7,7 +7,7 @@
     margin-top: 20px;
 }
 
-.product-table__header {
+.categories-table__header {
     display: block;
     background: #2E3444;
     border-radius: 10px 10px 0px 0px;
@@ -18,7 +18,7 @@
     color: #FFFFFF;
 }
 
-.product-table__body {
+.categories-table__body {
     display: block;
     font-weight: 500;
     font-size: 14px;
@@ -30,56 +30,56 @@
     transition: all ease 0.3s;
 }
 
-.product-table__body:last-child {
+.categories-table__body:last-child {
     border-bottom: none;
 }
 
-.product-table__body:hover {
+.categories-table__body:hover {
     background: #F6F6F6;
 }
 
-.product-table_category-width {
+.categories-table_category-width {
     width: 160px;
 }
 
-.product-table_stores-width {
+.categories-table_stores-width {
     width: 520px;
 }
 
-.product-table_edit-width {
+.categories-table_edit-width {
     width: 425px;
 }
 
-.product-table_status-width {
+.categories-table_status-width {
     width: 140px;
 }
 
-.product-table__header th {
+.categories-table__header th {
     height: 65px;
     text-align: center;
 }
 
-.product-table__body td {
+.categories-table__body td {
     height: 65px;
     text-align: center;
 }
 
-.product-stores_link:hover {
+.categories-stores_link:hover {
     text-decoration-line: underline;
     color: #2A8CFF;
 }
 
-.product-edit_link:hover {
+.categories-edit_link:hover {
     text-decoration-line: underline;
     color: #2A8CFF;
 }
 
-.product-stores_link {
+.categories-stores_link {
     transition: all ease 0.3s;
     color: #000000;
 }
 
-.product-edit_link {
+.categories-edit_link {
     transition: all ease 0.3s;
     color: #000000;
 }

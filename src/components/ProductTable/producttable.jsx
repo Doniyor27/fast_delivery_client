@@ -1,110 +1,78 @@
+import { useEffect } from 'react'
+
 import './producttable.css'
 
 function ProductTable() {
-    async function test () {
-        const token = document.cookie.split('=')[1].split(';')[0]
-        console.log(token);
-        const res = await fetch('http://localhost:5003/categories', {
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-              },
-            body: JSON.stringify({token: token})
-        })
 
+     useEffect( async () => {
+
+        const table = document.querySelector('.product-table')
+
+        const res = await fetch('http://localhost:5003/categories')
         const data = await res.json()
 
-        const table = document.querySelector('.client-table')
+        console.log(data.data);
+        const array = data.data
 
-        const arrayy = data.data
-        console.log(data);
-        // for (const i of arrayy) {
-        //     // <tr className="client-table__body">
-        //     //         <td className="client-table__id-content table_id-width ">6</td>
-        //     //         <td className="client-table__name-content table_name-width "><a href="javascript:void(0)" className="client-name_link">Bobur Mavlonov</a></td>
-        //     //         <td className="client-table__phone-content table_phone-width "><a href="javascript:void(0)" className="client-phone_link">+998901234567</a></td>
-        //     //         <td className="client-table__status-content table_more-width ">1</td>
-        //     //     </tr>
+        for (const i of array) {
+            console.log(i)
+            
+            const tr = document.createElement('tr')
+            const tdcat = document.createElement('td')
+            const tdstore = document.createElement('td')
+            const tdedit = document.createElement('td')
+            const tdstatus = document.createElement('td')
+            const catlink = document.createElement('a')
+            const editbtn = document.createElement('button')
+            const statusbtn = document.createElement('button')
 
-        //     console.log(i);
-        //     const tr = document.createElement('tr')
-        //     const tdid = document.createElement('td')
-        //     const tdname = document.createElement('td')
-        //     const tdphone = document.createElement('td')
-        //     const tdstatus = document.createElement('td')
+            tr.classList.add('product-table__body')
 
-        //     tr.classList.add('client-table__body')
-        //     tdid.classList.add('client-table__id-content', 'table_id-width')
-        //     tdname.classList.add('client-table__name-content', 'table_name-width')
-        //     tdphone.classList.add('client-table__phone-content', 'table_phone-width')
-        //     tdstatus.classList.add('client-table__status-content', 'table_more-width')
+            tdcat.classList.add('product-table__date-content', 'product-table_category-width')
+            tdstore.classList.add('product-table__name-content', 'product-table_stores-width')
+            tdedit.classList.add('product-table__phone-content', 'product-table_edit-width')
+            tdstatus.classList.add('product-table__price-content', 'product-table_status-width')
+            editbtn.classList.add('product-table__location-content')
+            statusbtn.classList.add('product-table__driver-content')
+            // catlink.classList.add('product-table__status-content', 'table_status-width')
 
-        //     tdid.textContent = i.name
-        //     tdname.textContent = i.name
-        //     tdphone.textContent = i.name
-        //     tdstatus.textContent = i.name
+            tdcat.textContent = i.name
+            tdstore.textContent = i.count
+            tdstatus.textContent = i.status
 
-        //     tr.appendChild(tdid, tdname, tdphone, tdstatus)
-        //     tr.appendChild(tdname)
-        //     tr.appendChild(tdphone)
-        //     tr.appendChild(tdstatus)
+            catlink.href = '#'
 
-        //     table.appendChild(tr)
-        // }
+            tdcat.appendChild(catlink)
+
+            tr.appendChild(tdcat)
+            tr.appendChild(tdstore)
+            tdedit.appendChild(editbtn)
+            tr.appendChild(tdstatus)
+            tr.appendChild(tdedit)
+            // tr.appendChild(statusbtn)
+            table.appendChild(tr)
+
+        }
         
-    }
-    
-    test()
 
-    // async function test () {
-    //     const res = await fetch('http://localhost:5003/orders')
-    //     const data = await res.json()
-
-    //     console.log(data);
-
-    // }
-    // test()
+    }, [])
     
     return (
         <>
             <table className="product-table">
                 <tr className="product-table__header">
-                    <th className="product-table__category table_category-width rows-hover">Kategoriya</th>
-                    <th className="product-table__stores table_stores-width ">do'konlar</th>
-                    <th className="product-table__edit table_edit-width ">tahrirlash</th>
-                    <th className="product-table__status table_status-width ">status</th>
-                </tr>
-
-                <tr className="product-table__body">
-                    <td className="product-table__category-content table_category-width "><a href="http://localhost:3000/categoryinner">Fast food</a></td>
-                    <td className="product-table__stores-content table_stores-width ">12</td>
-                    <td className="product-table__edit-content table_edit-width ">null</td>
-                    <td className="product-table__status-content table_status-width ">null</td>
+                    <th className="product-table__category product-table_category-width rows-hover">Kategoriya</th>
+                    <th className="product-table__stores product-table_stores-width ">do'konlar</th>
+                    <th className="product-table__status product-table_status-width ">holat</th>
+                    <th className="product-table__edit product-table_edit_width">tahrirlash</th>
+                    <th className="product-table__delete product-table_delete_width">o'chirish</th>
                 </tr>
                 <tr className="product-table__body">
-                    <td className="product-table__category-content table_category-width "><a href="http://localhost:3000/categoryinner">Fast food</a></td>
-                    <td className="product-table__stores-content table_stores-width ">12</td>
-                    <td className="product-table__edit-content table_edit-width ">null</td>
-                    <td className="product-table__status-content table_status-width ">null</td>
-                </tr>
-                <tr className="product-table__body">
-                    <td className="product-table__category-content table_category-width "><a href="http://localhost:3000/categoryinner">Fast food</a></td>
-                    <td className="product-table__stores-content table_stores-width ">12</td>
-                    <td className="product-table__edit-content table_edit-width ">null</td>
-                    <td className="product-table__status-content table_status-width ">null</td>
-                </tr>
-                <tr className="product-table__body">
-                    <td className="product-table__category-content table_category-width "><a href="http://localhost:3000/categoryinner">Fast food</a></td>
-                    <td className="product-table__stores-content table_stores-width ">12</td>
-                    <td className="product-table__edit-content table_edit-width ">null</td>
-                    <td className="product-table__status-content table_status-width ">null</td>
-                </tr>
-                <tr className="product-table__body">
-                    <td className="product-table__category-content table_category-width "><a href="http://localhost:3000/categoryinner">Fast food</a></td>
-                    <td className="product-table__stores-content table_stores-width ">12</td>
-                    <td className="product-table__edit-content table_edit-width ">null</td>
-                    <td className="product-table__status-content table_status-width ">null</td>
+                    <td className="product-table__category product-table_category-width rows-hover">texnika</td>
+                    <td className="product-table__stores product-table_stores-width ">12</td>
+                    <td className="product-table__status    product-table_status-width ">null</td>
+                    <td className="product-table__edit product-table_edit_width">null</td>
+                    <td className="product-table__delete product-table_delete_width">null</td>
                 </tr>
             </table>
         </>

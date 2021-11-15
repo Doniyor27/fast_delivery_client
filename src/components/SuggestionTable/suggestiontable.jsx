@@ -1,7 +1,6 @@
 import './suggestiontable.css'
 
 function SuggestionTable (){
-    
     return (
         <>
             <ul className="suggestions-list">

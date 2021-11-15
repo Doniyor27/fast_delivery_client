@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react'
 import React, { Component } from 'react'
 import jwt from 'jsonwebtoken'
-console.log(jwt)
+// console.log(jwt)
 // var app = express()
 
 // console.log(cookieParser);
