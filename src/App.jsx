@@ -19,6 +19,7 @@ import ClientsMore from './pages/ClientsMore/clientsmore.jsx'
 import CategoryInner from './pages/CategoryInner/categoryinner.jsx'
 import Categories from './pages/Categories/categories.jsx'
 import CategoryProducts from './pages/CategoryProducts/categoryproducts.jsx'
+import CategoryProduct from './pages/CategoryProduct/categoryproduct.jsx'
 
 import './assets/styles/main.css'
 
@@ -72,6 +73,9 @@ class App extends Component {
             </Route>
             <Route path="/categoryproducts">
               <CategoryProducts/>
+            </Route>
+            <Route path="/categoryproduct">
+              <CategoryProduct/>
             </Route>
           </Switch>
         </div>
