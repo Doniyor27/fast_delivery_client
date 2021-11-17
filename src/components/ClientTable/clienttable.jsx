@@ -10,10 +10,8 @@ function ClientTable() {
         const data = await res.json()
         const table = document.querySelector('.client-table')
         const arrayy = data.data
-<<<<<<< HEAD
         console.log(arrayy);
         for (const i of arrayy) {
-=======
         
         // for (const i of arrayy) {
         //     // <tr className="client-table__body">
@@ -22,7 +20,6 @@ function ClientTable() {
         //     //         <td className="client-table__phone-content table_phone-width "><a href="javascript:void(0)" className="client-phone_link">+998901234567</a></td>
         //     //         <td className="client-table__status-content table_more-width ">1</td>
         //     //     </tr>
->>>>>>> 96e9f19fc97bf6bbb1bb234b3700569885521d5b
 
             const tr = document.createElement('tr')
             const tdid = document.createElement('td')

@@ -19,7 +19,12 @@
     border-radius: 10px;
     margin-left: 27px;
     margin-top: 20px;
-    
+    height: 83.2vh;
+    overflow-y: scroll;
+}
+
+.client-table::-webkit-scrollbar {
+    display: none;
 }
 
 .client-table__header {

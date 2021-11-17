@@ -17,6 +17,11 @@ ul {
     max-width: 100vw;
     min-width: 78vw;
     height: 83.2vh;
+    overflow-y: scroll;
+}
+
+.suggestions-wrapper::-webkit-scrollbar {
+    display: none;
 }
 
 .suggestions-list-item {
