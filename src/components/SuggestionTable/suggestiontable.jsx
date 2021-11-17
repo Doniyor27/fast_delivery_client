@@ -3,7 +3,6 @@ import { useEffect } from 'react'
 import './suggestiontable.css'
 
 function SuggestionTable (){
-<<<<<<< HEAD
   
   useEffect( async () => {
     

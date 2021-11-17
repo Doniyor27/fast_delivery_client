@@ -12,10 +12,6 @@ function ClientTable() {
         const arrayy = data.data
         console.log(arrayy);
         for (const i of arrayy) {
-<<<<<<< HEAD
-        
-=======
->>>>>>> e2213545534a69650dfb0c14041680a6e98c8d47
         // for (const i of arrayy) {
         //     // <tr className="client-table__body">
         //     //         <td className="client-table__id-content table_id-width ">6</td>
