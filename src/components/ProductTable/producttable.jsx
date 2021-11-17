@@ -26,7 +26,6 @@ function ProductTable() {
             const editbtn = document.createElement('button')
             const statusbtn = document.createElement('button')
 
-
             tr.classList.add('product-table__body')
 
             tdcat.classList.add('product-table__date-content', 'product-table_category-width')
@@ -36,7 +35,7 @@ function ProductTable() {
             editbtn.classList.add('product-table__location-content')
             statusbtn.classList.add('product-table__driver-content')
             // catlink.classList.add('product-table__status-content', 'table_status-width')
-            
+
             tdcat.textContent = i.name
             tdstore.textContent = i.count
             tdstatus.textContent = i.status
@@ -64,10 +63,17 @@ function ProductTable() {
                 <tr className="product-table__header">
                     <th className="product-table__category product-table_category-width rows-hover">Kategoriya</th>
                     <th className="product-table__stores product-table_stores-width ">do'konlar</th>
-                    <th className="product-table__status product-table_status-width ">status</th>
-                    <th className="product-table__edit product-table_edit-width ">holat</th>
+                    <th className="product-table__status product-table_status-width ">holat</th>
+                    <th className="product-table__edit product-table_edit_width">tahrirlash</th>
+                    <th className="product-table__delete product-table_delete_width">o'chirish</th>
                 </tr>
-                
+                <tr className="product-table__body">
+                    <td className="product-table__category product-table_category-width rows-hover">texnika</td>
+                    <td className="product-table__stores product-table_stores-width ">12</td>
+                    <td className="product-table__status    product-table_status-width ">null</td>
+                    <td className="product-table__edit product-table_edit_width">null</td>
+                    <td className="product-table__delete product-table_delete_width">null</td>
+                </tr>
             </table>
         </>
     )

@@ -12,7 +12,10 @@ function ClientTable() {
         const arrayy = data.data
         console.log(arrayy);
         for (const i of arrayy) {
+<<<<<<< HEAD
         
+=======
+>>>>>>> e2213545534a69650dfb0c14041680a6e98c8d47
         // for (const i of arrayy) {
         //     // <tr className="client-table__body">
         //     //         <td className="client-table__id-content table_id-width ">6</td>
@@ -32,6 +35,7 @@ function ClientTable() {
             tr.classList.add('client-table__body')
             tdid.classList.add('client-table__id-content', 'client-table_id-width')
             tdname.classList.add('client-table__name-content', 'client-table_name-width')
+            tdname.setAttribute("href", "https://localhost:3000/clientsinner")
             tdphone.classList.add('client-table__phone-content', 'client-table_phone-width')
             tdstatus.classList.add('client-table__status-content', 'client-table_more-width')
             aphone.classList.add('client-table__phone-content_a')
